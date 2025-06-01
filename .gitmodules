@@ -4,3 +4,6 @@
 [submodule "twider-backend"]
 	path = twider-backend
 	url = https://github.com/012e/twider-backend
+[submodule "twider-ml"]
+	path = twider-ml
+	url = https://github.com/012e/twider-ml
