@@ -1,9 +1,7 @@
 # Twider - Modern Twitter Clone
 ##  Architecture Overview
 
-Twider is built as a distributed microservices architecture with three main components:
-
-### ** Backend (`twider-backend`)**
+### Backend (`twider-backend`)
 - **Framework**: ASP.NET Core 8.0 with Clean Architecture
 - **Authentication**: Keycloak integration with OAuth 2.0 + PKCE flow
 - **Database**: PostgreSQL with Entity Framework Core
@@ -12,7 +10,7 @@ Twider is built as a distributed microservices architecture with three main comp
 - **API Documentation**: OpenAPI/Swagger with Scalar UI
 - **Testing**: Comprehensive integration tests
 
-### ** Frontend (`twider-frontend`)**
+### Frontend (`twider-frontend`)
 - **Framework**: Next.js 15 with TypeScript and App Router
 - **Styling**: Tailwind CSS with shadcn/ui components
 - **State Management**: Zustand with Immer for immutable updates
@@ -20,7 +18,7 @@ Twider is built as a distributed microservices architecture with three main comp
 - **Authentication**: NextAuth.js with Keycloak provider
 - **Animations**: Framer Motion for smooth interactions
 
-### ** ML Service (`twider-ml`)**
+### ML Service (`twider-ml`)
 - **Framework**: FastAPI with Python
 - **Vector Database**: Qdrant for hybrid vector search
 - **Search Engine**: Dense + Sparse vector search with Reciprocal Rank Fusion (RRF)
