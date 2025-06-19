@@ -7,7 +7,7 @@
 - **Database**: PostgreSQL with Entity Framework Core
 - **Message Broker**: NATS JetStream for real-time event processing
 - **File Storage**: MinIO for media uploads
-- **API Documentation**: OpenAPI/Swagger with Scalar UI
+- **API Documentation**: OpenAPI/Swagger
 - **Testing**: Comprehensive integration tests
 
 ### Frontend (`twider-frontend`)
@@ -43,7 +43,6 @@
 
 ### **Technical Excellence**
 -  **Comprehensive Testing**: Integration tests for all major features
--  **API-First Design**: Auto-generated TypeScript clients from OpenAPI
 -  **Containerized**: Docker Compose for easy development setup
 -  **Event Sourcing**: Real-time ML indexing of content changes
 
